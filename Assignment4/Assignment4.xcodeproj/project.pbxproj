@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F50E10D71EAEC21B003D6CA5 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50E10D61EAEC21B003D6CA5 /* StatisticsViewController.swift */; };
+		F50E10D91EAEC24F003D6CA5 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50E10D81EAEC24F003D6CA5 /* GridView.swift */; };
+		F50E10DB1EAEC265003D6CA5 /* GridProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50E10DA1EAEC265003D6CA5 /* GridProtocol.swift */; };
 		FB475A381E8828EF00D2EAD3 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB475A371E8828EF00D2EAD3 /* Grid.swift */; };
 		FBAD2E071E2BE38C008207C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAD2E061E2BE38C008207C0 /* AppDelegate.swift */; };
-		FBAD2E091E2BE38C008207C0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAD2E081E2BE38C008207C0 /* FirstViewController.swift */; };
-		FBAD2E0B1E2BE38C008207C0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAD2E0A1E2BE38C008207C0 /* SecondViewController.swift */; };
+		FBAD2E091E2BE38C008207C0 /* InstrumentalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAD2E081E2BE38C008207C0 /* InstrumentalViewController.swift */; };
+		FBAD2E0B1E2BE38C008207C0 /* SimulationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAD2E0A1E2BE38C008207C0 /* SimulationViewController.swift */; };
 		FBAD2E0E1E2BE38C008207C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBAD2E0C1E2BE38C008207C0 /* Main.storyboard */; };
 		FBAD2E101E2BE38C008207C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBAD2E0F1E2BE38C008207C0 /* Assets.xcassets */; };
 		FBAD2E131E2BE38C008207C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBAD2E111E2BE38C008207C0 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F50E10D61EAEC21B003D6CA5 /* StatisticsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		F50E10D81EAEC24F003D6CA5 /* GridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		F50E10DA1EAEC265003D6CA5 /* GridProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridProtocol.swift; sourceTree = "<group>"; };
 		FB475A371E8828EF00D2EAD3 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		FBAD2E031E2BE38C008207C0 /* Assignment4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBAD2E061E2BE38C008207C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FBAD2E081E2BE38C008207C0 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		FBAD2E0A1E2BE38C008207C0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		FBAD2E081E2BE38C008207C0 /* InstrumentalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentalViewController.swift; sourceTree = "<group>"; };
+		FBAD2E0A1E2BE38C008207C0 /* SimulationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationViewController.swift; sourceTree = "<group>"; };
 		FBAD2E0D1E2BE38C008207C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FBAD2E0F1E2BE38C008207C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBAD2E121E2BE38C008207C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,12 +66,15 @@
 			children = (
 				FB475A371E8828EF00D2EAD3 /* Grid.swift */,
 				FBAD2E061E2BE38C008207C0 /* AppDelegate.swift */,
-				FBAD2E081E2BE38C008207C0 /* FirstViewController.swift */,
-				FBAD2E0A1E2BE38C008207C0 /* SecondViewController.swift */,
+				FBAD2E081E2BE38C008207C0 /* InstrumentalViewController.swift */,
+				FBAD2E0A1E2BE38C008207C0 /* SimulationViewController.swift */,
 				FBAD2E0C1E2BE38C008207C0 /* Main.storyboard */,
 				FBAD2E0F1E2BE38C008207C0 /* Assets.xcassets */,
 				FBAD2E111E2BE38C008207C0 /* LaunchScreen.storyboard */,
 				FBAD2E141E2BE38C008207C0 /* Info.plist */,
+				F50E10D61EAEC21B003D6CA5 /* StatisticsViewController.swift */,
+				F50E10D81EAEC24F003D6CA5 /* GridView.swift */,
+				F50E10DA1EAEC265003D6CA5 /* GridProtocol.swift */,
 			);
 			path = Assignment4;
 			sourceTree = "<group>";
@@ -143,10 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBAD2E0B1E2BE38C008207C0 /* SecondViewController.swift in Sources */,
+				FBAD2E0B1E2BE38C008207C0 /* SimulationViewController.swift in Sources */,
+				F50E10DB1EAEC265003D6CA5 /* GridProtocol.swift in Sources */,
+				F50E10D91EAEC24F003D6CA5 /* GridView.swift in Sources */,
 				FBAD2E071E2BE38C008207C0 /* AppDelegate.swift in Sources */,
-				FBAD2E091E2BE38C008207C0 /* FirstViewController.swift in Sources */,
+				FBAD2E091E2BE38C008207C0 /* InstrumentalViewController.swift in Sources */,
 				FB475A381E8828EF00D2EAD3 /* Grid.swift in Sources */,
+				F50E10D71EAEC21B003D6CA5 /* StatisticsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +283,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 56MEECX7CG;
 				INFOPLIST_FILE = Assignment4/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.harvard.Assignment4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,7 +297,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 56MEECX7CG;
 				INFOPLIST_FILE = Assignment4/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.harvard.Assignment4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
